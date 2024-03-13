@@ -1,0 +1,50 @@
+﻿/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.auto-style1 {
+    left: -120px;
+    bottom: 0;
+}
+/* Position the footer at the bottom */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Adjust background color as needed */
+    padding: 10px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.team-info {
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+/* Position the left bottom corner elements */
+.left-bottom-corner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
+
+    .left-bottom-corner a {
+        text-decoration: none;
+    }
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    td {
+        display: block;
+        width: 100%;
+    }
+}
